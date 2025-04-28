@@ -109,7 +109,7 @@
                 addBotMessage("Thinking...", "bot-message loading-message");
                 
                 // Call API /chat
-                fetch('https://glsmei1z2c.execute-api.us-east-1.amazonaws.com/dev/chat', {
+                fetch('https://${aws_api_gateway_rest_api.chatbot_api.id}.execute-api.${var.region}.amazonaws.com/${var.environment}/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ query: userMessage })
