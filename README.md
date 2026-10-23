@@ -37,8 +37,8 @@ The solution uses the following AWS services:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pdf-document-chatbot.git
-cd pdf-document-chatbot
+git clone https://github.com/skepticsa/aws-chat-with-files-bedrock-kendra.git
+cd aws-chat-with-files-bedrock-kendra
 ```
 
 2. Update the `terraform.tfvars` file with your preferred settings:
